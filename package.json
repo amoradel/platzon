@@ -1,0 +1,31 @@
+{
+  "name": "platzon",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzom",
+  "main": "dist/src/platzon.js",
+  "scripts": {
+    "build": "babel src/platzon.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amoradel/platzon.git"
+  },
+  "keywords": [
+    "platzon",
+    "javascript",
+    "platzi",
+    "js"
+  ],
+  "author": "Alter Moradel <amoradel@outlook.com> (https://twitter.com/daniel_lmv)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  },
+  "dependencies": {
+    "eslint": "^4.15.0"
+  }
+}
